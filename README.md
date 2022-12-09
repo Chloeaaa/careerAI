@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+<h1 align='center' style="font-size:5rem"><b>Risponsive Glassmorphism Login Page</b></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
+<br><br><br>
+<h2 align='center'>
+    You can use this login page for your project ,furthermore customize it to working in real websites.
+</h2>
 
-## Available Scripts
+<br><br><br>
 
-In the project directory, you can run:
+<div align='center'>
+    <h2>Desktop Mode</h2>
+    <img style='border-radius:5px' src="./images/desktop.png"></img>
+</div>
+<hr/>
+<div align='center'>
+    <h2>Mobile Mode</h2>
+    <img style='border-radius:5px' src="./images/mobile.png"></img>
+</div>
+<hr>
 
-### `npm start`
+<br><br><br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 align='center'><b>Abilities</b></h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<ul>
+    <li> This is just an UI nothing more, don't expect anything more than just beauty :)</li>
+</ul>
 
-### `npm test`
+<hr>
+<br><br><br><br>
+<h1 align='center'><b>Language and technologies used in This Project</h1>
+<img src="https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white"/>
+<img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"/>
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%23F7DF1E"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br><br><br><br>
 
-### `npm run build`
+<h1 align='center'><b>Requirements</b></h1>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Download and install `NodeJS` from official website <a href="https://nodejs.org/">nodeJS.org</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br><br><br><br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h1 align='center'><b>How To Run</b></h1>
 
-### `npm run eject`
+At first you have to clone the project and open it in `IDE`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open IDE's terminal and then write `~ npm i` to install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Then write `~ npm start` and then enter
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Congratulations ,now you can use this page for your beautiful project.
