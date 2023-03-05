@@ -1,23 +1,11 @@
 import { Box, Button, Checkbox, colors, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import React from "react";
-import { useCallback } from "react";
-import { useNavigate } from "react-router";
 import CustomInput from "./CustomInput";
-import { BrowserRouter, Route } from 'react-router-dom';
-
-const SigninPage: React.FC = () => {
-
-//    const navigate = useNavigate();
-//    console.log(navigate);
-  
-//   const gotoQuestion = useCallback(() => {
-//     navigate("./QuestionPage")
-// }, [navigate]);
+import CustomInput2 from "./CustomInput2";
 
 
-
-
+const QuestionPage: React.FC = () => {
   return (
     <Grid
       xs={12}
@@ -74,27 +62,38 @@ const SigninPage: React.FC = () => {
             </Box>
             {/* LOGO END */}
 
-            <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', marginTop: 4,  marginBottom: 0}} mt={7} mb={1}>
+            {/* <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', marginTop: 4,  marginBottom: 0}} mt={7} mb={1}>
             Simplifies connecting, augmenting your career
 
-            </Typography>
-            <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', margin: 0 }} mt={7} mb={3}>
+            </Typography> */}
+            {/* <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', margin: 0 }} mt={7} mb={3}>
             </Typography>
             <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', marginTop: 4 }} mt={7} mb={3}>
               Sign in to our ConnectU
-            </Typography>
+            </Typography> */}
+
+
           </Box>
 
           {/* INPUTS */}
+          <br></br>
+          <br></br>
           <CustomInput
-            label="Login"
-            placeholder="Enter your login..."
+            label="Industry you are looking for"
+            placeholder=""
             isIconActive={false}
           />
+          <br></br>
+          <CustomInput2
+            label="Position you are looking for"
+            placeholder=""
+            isIconActive={false}
+          />
+          <br></br>
           <CustomInput
-            label="Password"
-            placeholder="Enter your password..."
-            isIconActive={true}
+            label="How many connections do you want ?"
+            placeholder=""
+            isIconActive={false}
           />
           {/* <CustomInput
             label="MFA Code"
@@ -111,10 +110,10 @@ const SigninPage: React.FC = () => {
             width="100%"
             color="white"
           >
-            <div style={{ display: "flex" }}>
+            {/* <div style={{ display: "flex" }}>
               <Checkbox disableRipple sx={{ p: 0, pr: 1 }} />
               <Typography>Remember me</Typography>
-            </div>
+            </div> */}
             <a
               href="#yoyo"
               style={{
@@ -122,16 +121,15 @@ const SigninPage: React.FC = () => {
                 textDecoration: "none",
               }}
             >
-              Forget password?
+              {/* Forget password? */}
             </a>
           </Box>
           <Button
-            //onClick={gotoQuestion}
             variant="contained"
             fullWidth
             sx={{ mt: 4, boxShadow: `0 0 20px ${colors.green[500]}` }}
           >
-            Login
+            Submit
           </Button>
         </Box>
       </Box>
@@ -139,4 +137,4 @@ const SigninPage: React.FC = () => {
   );
 };
 
-export default SigninPage;
+export default QuestionPage;

@@ -4,6 +4,9 @@ import SigninPage from "./components/SigninPage";
 import TitleBox from "./components/TitleBox";
 import MainLayout from "./layouts/MainLayout";
 
+import QuestionPage from "./components/QuestionPage";
+
+
 const App: React.FC = () => {
   return (
     <MainLayout>
