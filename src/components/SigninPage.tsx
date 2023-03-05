@@ -38,13 +38,13 @@ const SigninPage: React.FC = () => {
           },
         }}
       >
-        <Box width="80%">
+        <Box width="50%">
           <Box display="flex" flexDirection="column" alignItems="center">
             {/* LOGO */}
             <Box
               sx={{
                 mt: "60px",
-                width: "50px",
+                width: "150px",
                 height: "50px",
                 bgcolor: "primary.main",
                 borderRadius: "12px",
@@ -55,13 +55,19 @@ const SigninPage: React.FC = () => {
               }}
             >
               <Typography variant="h6" fontWeight="bold" color="white">
-                AA
+                CareerAI
               </Typography>
             </Box>
             {/* LOGO END */}
 
-            <Typography color="white" fontWeight="bold" mt={7} mb={3}>
-              Sign in to dashboard
+            <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', marginTop: 4,  marginBottom: 0}} mt={7} mb={1}>
+            Simplifies connecting, augmenting your career
+
+            </Typography>
+            <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', margin: 0 }} mt={7} mb={3}>
+            </Typography>
+            <Typography color="white" fontWeight="bold" sx={{ textAlign: 'center', marginTop: 4 }} mt={7} mb={3}>
+              Sign in to our ConnectU
             </Typography>
           </Box>
 
@@ -76,11 +82,11 @@ const SigninPage: React.FC = () => {
             placeholder="Enter your password..."
             isIconActive={true}
           />
-          <CustomInput
+          {/* <CustomInput
             label="MFA Code"
             placeholder="Enter your code..."
             isIconActive={true}
-          />
+          /> */}
           {/* INPUT END */}
 
           <Box
